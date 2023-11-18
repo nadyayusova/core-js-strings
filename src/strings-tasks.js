@@ -299,7 +299,7 @@ function reverseString(str) {
  */
 function orderAlphabetically(str) {
   const arr = Array.from(str);
-  return arr.sort((a, b) => (a < b ? -1 : 1)).join('');
+  return arr.sort().join('');
 }
 
 /**
